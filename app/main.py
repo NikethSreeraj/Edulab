@@ -1,26 +1,8 @@
-import tkinter as tk
+from app.ui.web_app import start_web_app
 
 
 def main():
-    root = tk.Tk()
-    root.title("Edulab")
-    root.geometry("900x600")
-
-    title = tk.Label(
-        root,
-        text="Edulab",
-        font=("Segoe UI", 28, "bold")
-    )
-    title.pack(pady=40)
-
-    subtitle = tk.Label(
-        root,
-        text="Educational tools, simulations and learning",
-        font=("Segoe UI", 13)
-    )
-    subtitle.pack()
-
-    root.mainloop()
+    start_web_app()
 
 
 if __name__ == "__main__":

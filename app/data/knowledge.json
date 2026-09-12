@@ -1,0 +1,304 @@
+{
+  "version": 1,
+  "topics": [
+    {
+      "id": "physics-kinematics",
+      "subject": "Physics",
+      "unit": "Mechanics",
+      "title": "Kinematics",
+      "summary": "Describes motion using displacement, velocity, acceleration, and time.",
+      "formulas": [
+        "v = u + at",
+        "s = ut + 1/2 at^2",
+        "v^2 = u^2 + 2as"
+      ],
+      "facts": [
+        "Acceleration is the rate of change of velocity.",
+        "SI units are metre, second, and metre per second squared."
+      ],
+      "keywords": [
+        "motion",
+        "velocity",
+        "acceleration",
+        "kinematics"
+      ]
+    },
+    {
+      "id": "physics-dynamics",
+      "subject": "Physics",
+      "unit": "Mechanics",
+      "title": "Newton's Laws",
+      "summary": "Newton's laws connect force, mass, acceleration, and momentum.",
+      "formulas": [
+        "F = ma",
+        "p = mv",
+        "W = Fs cos(theta)"
+      ],
+      "facts": [
+        "Forces are vectors and are measured in newtons.",
+        "The net force determines acceleration."
+      ],
+      "keywords": [
+        "force",
+        "mass",
+        "newton",
+        "momentum",
+        "work"
+      ]
+    },
+    {
+      "id": "physics-energy",
+      "subject": "Physics",
+      "unit": "Energy",
+      "title": "Work, Energy and Power",
+      "summary": "Energy is transferred by work and the rate of transfer is power.",
+      "formulas": [
+        "KE = 1/2 mv^2",
+        "PE = mgh",
+        "P = W/t"
+      ],
+      "facts": [
+        "Energy is measured in joules.",
+        "Power is measured in watts."
+      ],
+      "keywords": [
+        "energy",
+        "kinetic",
+        "potential",
+        "power",
+        "joule"
+      ]
+    },
+    {
+      "id": "physics-electricity",
+      "subject": "Physics",
+      "unit": "Electricity",
+      "title": "Circuits and Ohm's Law",
+      "summary": "Voltage, current, and resistance describe simple electrical circuits.",
+      "formulas": [
+        "V = IR",
+        "P = VI",
+        "R_series = R1 + R2",
+        "1/R_parallel = 1/R1 + 1/R2"
+      ],
+      "facts": [
+        "Current is charge flow per second.",
+        "Resistance is measured in ohms."
+      ],
+      "keywords": [
+        "voltage",
+        "current",
+        "resistance",
+        "circuit",
+        "ohm"
+      ]
+    },
+    {
+      "id": "physics-waves",
+      "subject": "Physics",
+      "unit": "Waves",
+      "title": "Waves and Sound",
+      "summary": "Waves transfer energy and are described by frequency, wavelength, and speed.",
+      "formulas": [
+        "v = f lambda",
+        "T = 1/f",
+        "I = P/A"
+      ],
+      "facts": [
+        "Frequency is measured in hertz.",
+        "Sound needs a medium to travel."
+      ],
+      "keywords": [
+        "wave",
+        "sound",
+        "frequency",
+        "wavelength",
+        "amplitude"
+      ]
+    },
+    {
+      "id": "chemistry-matter",
+      "subject": "Chemistry",
+      "unit": "Matter",
+      "title": "Atoms and the Periodic Table",
+      "summary": "Atoms contain protons, neutrons, and electrons arranged into energy levels.",
+      "formulas": [
+        "A = Z + N",
+        "charge = protons - electrons"
+      ],
+      "facts": [
+        "Atomic number is the number of protons.",
+        "Isotopes have the same proton count but different neutron counts."
+      ],
+      "keywords": [
+        "atom",
+        "proton",
+        "neutron",
+        "electron",
+        "periodic"
+      ]
+    },
+    {
+      "id": "chemistry-stoichiometry",
+      "subject": "Chemistry",
+      "unit": "Reactions",
+      "title": "Stoichiometry",
+      "summary": "Balanced equations provide mole ratios for quantitative chemical calculations.",
+      "formulas": [
+        "n = m/M",
+        "C = n/V",
+        "% yield = actual/theoretical x 100"
+      ],
+      "facts": [
+        "Equations must conserve each element.",
+        "The limiting reagent determines the maximum product."
+      ],
+      "keywords": [
+        "mole",
+        "mass",
+        "molar",
+        "stoichiometry",
+        "reaction"
+      ]
+    },
+    {
+      "id": "chemistry-solutions",
+      "subject": "Chemistry",
+      "unit": "Solutions",
+      "title": "Solutions and Concentration",
+      "summary": "Concentration describes how much solute is present in a given amount of solution.",
+      "formulas": [
+        "M = n/V",
+        "C1V1 = C2V2",
+        "m = n/kg solvent"
+      ],
+      "facts": [
+        "Molarity uses litres of solution.",
+        "Dilution changes concentration but not solute moles."
+      ],
+      "keywords": [
+        "molarity",
+        "molality",
+        "dilution",
+        "solution",
+        "concentration"
+      ]
+    },
+    {
+      "id": "chemistry-acids",
+      "subject": "Chemistry",
+      "unit": "Acids and Bases",
+      "title": "Acids, Bases and pH",
+      "summary": "The pH scale describes hydrogen ion concentration in aqueous solutions.",
+      "formulas": [
+        "pH = -log10[H+ ]",
+        "pOH = -log10[OH-]",
+        "pH + pOH = 14"
+      ],
+      "facts": [
+        "At 25 C, pH 7 is neutral.",
+        "A one-unit pH change represents a tenfold concentration change."
+      ],
+      "keywords": [
+        "acid",
+        "base",
+        "ph",
+        "neutralization",
+        "buffer"
+      ]
+    },
+    {
+      "id": "math-algebra",
+      "subject": "Mathematics",
+      "unit": "Algebra",
+      "title": "Algebra and Quadratics",
+      "summary": "Algebra uses symbols and rules to represent relationships and solve unknowns.",
+      "formulas": [
+        "x = (-b +/- sqrt(b^2 - 4ac))/(2a)",
+        "(a+b)^2 = a^2 + 2ab + b^2"
+      ],
+      "facts": [
+        "The discriminant classifies the roots of a quadratic.",
+        "Always check solutions in the original equation."
+      ],
+      "keywords": [
+        "algebra",
+        "quadratic",
+        "equation",
+        "roots",
+        "factor"
+      ]
+    },
+    {
+      "id": "math-functions",
+      "subject": "Mathematics",
+      "unit": "Functions",
+      "title": "Functions and Graphs",
+      "summary": "A function maps each allowed input to exactly one output.",
+      "formulas": [
+        "slope = (y2-y1)/(x2-x1)",
+        "y = mx + c",
+        "distance = sqrt((x2-x1)^2 + (y2-y1)^2)"
+      ],
+      "facts": [
+        "The domain contains valid inputs.",
+        "The range contains resulting outputs."
+      ],
+      "keywords": [
+        "function",
+        "graph",
+        "slope",
+        "line",
+        "domain",
+        "range"
+      ]
+    },
+    {
+      "id": "math-calculus",
+      "subject": "Mathematics",
+      "unit": "Calculus",
+      "title": "Derivatives and Integrals",
+      "summary": "Derivatives measure instantaneous change and integrals accumulate quantities.",
+      "formulas": [
+        "d/dx x^n = nx^(n-1)",
+        "integral x^n dx = x^(n+1)/(n+1) + C",
+        "integral_a^b f(x) dx = F(b)-F(a)"
+      ],
+      "facts": [
+        "A derivative is the slope of a curve.",
+        "A definite integral represents signed area."
+      ],
+      "keywords": [
+        "calculus",
+        "derivative",
+        "integral",
+        "limit",
+        "area"
+      ]
+    },
+    {
+      "id": "math-statistics",
+      "subject": "Mathematics",
+      "unit": "Statistics",
+      "title": "Probability and Statistics",
+      "summary": "Statistics summarizes data while probability models uncertain events.",
+      "formulas": [
+        "mean = sum(x)/n",
+        "P(A or B) = P(A)+P(B)-P(A and B)",
+        "z = (x-mu)/sigma"
+      ],
+      "facts": [
+        "The median is less sensitive to outliers than the mean.",
+        "Probability lies between zero and one."
+      ],
+      "keywords": [
+        "probability",
+        "statistics",
+        "mean",
+        "median",
+        "normal",
+        "data"
+      ]
+    }
+  ]
+}
