@@ -1,1 +1,0 @@
-"""Edulab package."""
